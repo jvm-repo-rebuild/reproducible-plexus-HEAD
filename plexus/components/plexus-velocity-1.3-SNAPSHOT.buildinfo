@@ -24,9 +24,9 @@ mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 # output
 
 outputs.0.filename=plexus-velocity-1.3-SNAPSHOT.jar
-outputs.0.length=8116
-outputs.0.checksums.sha512=3a590971fb9c8b606caebac233e798315986bc1463669b56da9ac919a51faed6fe59a33354401d1c52d17f258645d90296c5fac29df627196e9de6dd7e3255d8
+outputs.0.length=8144
+outputs.0.checksums.sha512=23cef86d0cb3aeac9eb91d1dc37499adf1037a68d08a73007324a06a11018139189cb147ebdabb4f1468f8afd87c7996ebeff536aa1f0addda9bdcb5bb7cfa21
 
 outputs.1.filename=plexus-velocity-1.3-SNAPSHOT-sources.jar
-outputs.1.length=6347
-outputs.1.checksums.sha512=cd3a9c50f65ddd0b054dc2cf1590b46f02f7d51958859d79984fb2007b091ec4b89147cc099eaf3d7dd61874add8ea666058b5d1fcd7b27ab155b39bd6d247e1
+outputs.1.length=8219
+outputs.1.checksums.sha512=5aea86fcf2ada539fa5161f8c3e2bd0630005b6f222b11bb43e66d81d47cc8672f5bd50c0cb4fbc44b98f50807164277dd01e1e3e05a657b64afea7d67deecda

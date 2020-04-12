@@ -21,7 +21,7 @@ do
 
   echo -n "| [`echo ${groupId} | sed s/org.apache.maven/m/`](https://repo.maven.apache.org/maven2/${groupDir}) "
   echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
-  echo -n "([spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildspec}), "
+  echo -n "([spec](https://github.com/jvm-repo-rebuild/reproducible-plexus-HEAD/tree/master/${buildspec}), "
   echo -n "[Git](${gitRepo})) "
 
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
@@ -36,9 +36,9 @@ do
     countLatest=$(($countLatest+1))
     buildinfoLatest="`dirname ${buildspec}`/`basename ${buildinfoLatestFilename}`"
     . ${buildinfoLatest}.compare
-    echo -n "| [${version}](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildinfoLatest}): "
+    echo -n "| [${version}](https://github.com/jvm-repo-rebuild/reproducible-plexus-HEAD/tree/master/${buildinfoLatest}): "
     [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
-    [ ${ko} -gt 0 ] && echo -n " ${ko} [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildinfoLatest}.compare) "
+    [ ${ko} -gt 0 ] && echo -n " ${ko} [:warning:](https://github.com/jvm-repo-rebuild/reproducible-plexus-HEAD/tree/master/${buildinfoLatest}.compare) "
 
     [ ${ko} -eq 0 ] && countLatestOk=$(($countLatestOk + 1))
     sumLatestOk=$(($sumLatestOk + ${ok}))
@@ -47,9 +47,9 @@ do
 
   buildinfoHEAD="`dirname ${buildspec}`/`basename ${buildinfoHEADFilename}`"
   . ${buildinfoHEAD}.compare
-  echo -n "| [${version}](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildinfoHEAD}): "
+  echo -n "| [${version}](https://github.com/jvm-repo-rebuild/reproducible-plexus-HEAD/tree/master/${buildinfoHEAD}): "
   [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
-  [ ${ko} -gt 0 ] && echo -n " ${ko} [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildinfoHEAD}.compare) "
+  [ ${ko} -gt 0 ] && echo -n " ${ko} [:warning:](https://github.com/jvm-repo-rebuild/reproducible-plexus-HEAD/tree/master/${buildinfoHEAD}.compare) "
   echo "|"
 
   [ ${ko} -eq 0 ] && countHEADOk=$(($countHEADOk + 1))

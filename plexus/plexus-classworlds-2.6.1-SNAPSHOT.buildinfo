@@ -24,9 +24,9 @@ mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 # output
 
 outputs.0.filename=plexus-classworlds-2.6.1-SNAPSHOT.jar
-outputs.0.length=52882
-outputs.0.checksums.sha512=fc0ec2b9bc8d678aa9c0caea20e0c231a7db300d34fca057f02f4f46789af58893cf580cb744f3dcfa3a16af44e0beafbc3f9d010903ff3cc5c085631ae9770b
+outputs.0.length=52813
+outputs.0.checksums.sha512=6235ee3630fd2d5b4e261b4923933c66b35f7a6951f5390c418949fb02e5017c82b85d2731fa347cfce52189534c850acd5e469e1e8e541850f591cf45f34f39
 
 outputs.1.filename=plexus-classworlds-2.6.1-SNAPSHOT-sources.jar
-outputs.1.length=53014
-outputs.1.checksums.sha512=f89b0b4c063dfd2a0cd53537189b74f6704aa25a6688877a3ea2f3dfe18288ce30912d57dc2d9566b6b6f77d3bb778f089e465387cb519af8ff8ad35492c3ab7
+outputs.1.length=52291
+outputs.1.checksums.sha512=158447452dd9189b29e9753b0cb27133ca4d177d8490e5f4579572fdec157baf086a21607af3b277e79540b5367f1a95017f9762de51c0498400435ae2f5d400
