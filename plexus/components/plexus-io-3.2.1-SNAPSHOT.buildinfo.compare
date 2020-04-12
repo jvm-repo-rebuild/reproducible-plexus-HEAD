@@ -1,0 +1,5 @@
+version=3.2.1-SNAPSHOT
+ok=2
+ko=0
+okFiles="plexus-io-3.2.1-SNAPSHOT-sources.jar plexus-io-3.2.1-SNAPSHOT.jar"
+koFiles=""

@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Velocity Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-velocity
+version=1.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-velocity.git
+source.scm.tag=plexus-velocity-1.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=plexus-velocity-1.2.jar
+outputs.0.length=8096
+outputs.0.checksums.sha512=824e4b8f2e4231a21de899c9ccc24d3b03b0e85fba7f4d6bf2d51f3b3f1d11754d3ec1e4295e97a295a95187e7f9e87a01a1a393e0878a8ec78ed55b718884e2
+
+outputs.1.filename=plexus-velocity-1.2-sources.jar
+outputs.1.length=6347
+outputs.1.checksums.sha512=e999afacfb2e8ad9291609f3964446ba5869eb2b485b36fa46bd075c926083d35c7d5b2a70884117f5854ba5f9537f11bf8320cdf9731dcfad33d7933081092b

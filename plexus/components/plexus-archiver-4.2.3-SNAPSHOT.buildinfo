@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Archiver Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-archiver
+version=4.2.3-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-archiver.git
+source.scm.tag=plexus-archiver-4.2.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=plexus-archiver-4.2.3-SNAPSHOT.jar
+outputs.0.length=194364
+outputs.0.checksums.sha512=23b87a27b9df022384ffea740cbffae998c222396521503cafe7cba6572f800284fdd6fabb122cd8593e8375bf09c8899d562b1b4086637da5b870ee01981a2b
+
+outputs.1.filename=plexus-archiver-4.2.3-SNAPSHOT-sources.jar
+outputs.1.length=147204
+outputs.1.checksums.sha512=85afc99c9aca6ebae1c2572ec137faf2172e0698a3fdd603e06b7c5bbbee7b3c6a7d877d6502e654b555ed6f4e27f72a33cd51aa2aedce031b0ba42a9e7ab734

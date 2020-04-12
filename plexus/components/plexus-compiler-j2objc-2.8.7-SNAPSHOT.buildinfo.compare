@@ -1,0 +1,5 @@
+version=2.8.7-SNAPSHOT
+ok=21
+ko=0
+okFiles="plexus-compiler-manager-2.8.7-SNAPSHOT-sources.jar plexus-compiler-csharp-2.8.7-SNAPSHOT.jar plexus-compiler-jikes-2.8.7-SNAPSHOT.jar plexus-compiler-test-2.8.7-SNAPSHOT-sources.jar plexus-compiler-javac-2.8.7-SNAPSHOT-sources.jar plexus-compiler-javac-errorprone-2.8.7-SNAPSHOT-sources.jar plexus-compiler-javac-2.8.7-SNAPSHOT.jar plexus-compiler-manager-2.8.7-SNAPSHOT.jar plexus-compiler-csharp-2.8.7-SNAPSHOT-sources.jar plexus-compiler-api-2.8.7-SNAPSHOT-sources.jar plexus-compiler-j2objc-2.8.7-SNAPSHOT.jar plexus-compiler-test-2.8.7-SNAPSHOT.jar plexus-compiler-aspectj-2.8.7-SNAPSHOT.jar plexus-compiler-eclipse-2.8.7-SNAPSHOT-sources.jar plexus-compiler-javac-errorprone-2.8.7-SNAPSHOT.jar plexus-compiler-j2objc-2.8.7-SNAPSHOT-sources.jar plexus-compiler-jikes-2.8.7-SNAPSHOT-sources.jar plexus-compiler-2.8.7-SNAPSHOT-site.xml plexus-compiler-aspectj-2.8.7-SNAPSHOT-sources.jar plexus-compiler-api-2.8.7-SNAPSHOT.jar plexus-compiler-eclipse-2.8.7-SNAPSHOT.jar"
+koFiles=""

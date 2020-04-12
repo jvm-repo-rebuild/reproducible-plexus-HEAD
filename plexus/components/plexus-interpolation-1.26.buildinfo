@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Interpolation API
+group-id=org.codehaus.plexus
+artifact-id=plexus-interpolation
+version=1.26
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-interpolation.git
+source.scm.tag=plexus-interpolation-1.26
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=plexus-interpolation-1.26.jar
+outputs.0.length=85344
+outputs.0.checksums.sha512=b7364386bc635f383b2cf09aa3f0a1c4a4e878dab700b50e1d42edc29856a096ee041f492e2f1437e895c2b88d58c77314b5be921f91f441d1f769f5218d2b49
+
+outputs.1.filename=plexus-interpolation-1.26-sources.jar
+outputs.1.length=90221
+outputs.1.checksums.sha512=8090677d9e75ed48c546b5c3c859cf1785a85cf93500adfdf942e3069de16d79d05ad53eda8ac808222b3c0aff49aaf5a96d7ea009cb1d3ecd79a320bd435fb1

@@ -1,0 +1,5 @@
+version=1.26
+ok=0
+ko=2
+okFiles=""
+koFiles="plexus-interpolation-1.26.jar plexus-interpolation-1.26-sources.jar"

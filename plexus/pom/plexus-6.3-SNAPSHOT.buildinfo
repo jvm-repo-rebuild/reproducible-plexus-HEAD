@@ -1,0 +1,28 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus
+group-id=org.codehaus.plexus
+artifact-id=plexus
+version=6.3-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-pom.git
+source.scm.tag=master
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=plexus-6.3-SNAPSHOT-site.xml
+outputs.0.length=2572
+outputs.0.checksums.sha512=f25f60fcb4d847272c34b11d182e89ee724eb49d20eb555a2f8566ca56b11e7f5423e84fbfcb86fe7d5af34749c36bbcf9018c88f15f7af7a881a35230fb50cb

@@ -1,0 +1,5 @@
+version=1.7-SNAPSHOT
+ok=2
+ko=0
+okFiles="plexus-cli-1.7-SNAPSHOT-sources.jar plexus-cli-1.7-SNAPSHOT.jar"
+koFiles=""

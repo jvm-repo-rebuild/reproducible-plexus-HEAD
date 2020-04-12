@@ -1,0 +1,10 @@
+groupId=org.codehaus.modello
+artifactId=modello
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
+
+jdk=8
+newline=lf
+
+command="mvn -Pmodello-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=modello-maven-plugin/target/modello-maven-plugin-*.buildinfo

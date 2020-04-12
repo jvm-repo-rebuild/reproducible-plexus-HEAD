@@ -1,0 +1,5 @@
+version=4.2.2
+ok=1
+ko=1
+okFiles="plexus-archiver-4.2.2-sources.jar"
+koFiles="plexus-archiver-4.2.2.jar"

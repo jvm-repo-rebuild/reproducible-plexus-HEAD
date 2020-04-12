@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Interactivity Handler Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-interactivity
+version=1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-interactivity.git
+source.scm.tag=plexus-interactivity-1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-interactivity
+
+outputs.0.0.filename=plexus-interactivity-1.0-site.xml
+outputs.0.0.length=313
+outputs.0.0.checksums.sha512=23780a9ee914eddf2750a4a82b711c8aaf59e9ec00d8bc4c8733644ba495a909fb95c30276e3bd6d699138c7c1e87b00017682e7f176641af43849a5560b8c5e
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-interactivity-api
+
+outputs.1.0.filename=plexus-interactivity-api-1.0.jar
+outputs.1.0.length=9745
+outputs.1.0.checksums.sha512=55ec99b3cab9fe49a24d64c00f066ebc3bb65fe87212a34cfde9e8a20c9070b38380b3c7d7a87dc4e9db2d50ba7d563c122e36ea2bc717cee99ea70681a19268
+
+outputs.1.1.filename=plexus-interactivity-api-1.0-sources.jar
+outputs.1.1.length=11809
+outputs.1.1.checksums.sha512=b159f5397800c08baa0f5d40f05e49a2bf811101fecb5ed22cc78976a9c63dc4b53366d13684f3544304ab747c87f9e5ab917419556f8ffbc499f11a3fa367f0
+
+outputs.2.coordinates=org.codehaus.plexus:plexus-interactivity-jline
+
+outputs.2.0.filename=plexus-interactivity-jline-1.0.jar
+outputs.2.0.length=3863
+outputs.2.0.checksums.sha512=0b23276bd6dc9791c48b7891019e0677facc63084e0bec68af9d6d4e3fe5573eabca75d053bea429575e2edb315b64d81799abf0212b7b91df3db3a2d958a98b
+
+outputs.2.1.filename=plexus-interactivity-jline-1.0-sources.jar
+outputs.2.1.length=2863
+outputs.2.1.checksums.sha512=dc8e3b3899e9658def9d735819e7401cf8a957091e1794687dc22225ecd2afa592025e12f4a56f71bf0d21c21f9d2f5b0dfedd47b894f5c748db8b143060c317

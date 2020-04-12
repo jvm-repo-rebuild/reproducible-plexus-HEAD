@@ -1,0 +1,5 @@
+version=1.0-beta-12-SNAPSHOT
+ok=2
+ko=0
+okFiles="plexus-i18n-1.0-beta-12-SNAPSHOT-sources.jar plexus-i18n-1.0-beta-12-SNAPSHOT.jar"
+koFiles=""

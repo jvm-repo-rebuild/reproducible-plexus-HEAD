@@ -1,0 +1,5 @@
+version=3.3.0
+ok=0
+ko=2
+okFiles=""
+koFiles="plexus-utils-3.3.0-sources.jar plexus-utils-3.3.0.jar"

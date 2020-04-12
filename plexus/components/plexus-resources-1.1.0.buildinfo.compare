@@ -1,0 +1,5 @@
+version=1.1.0
+ok=0
+ko=2
+okFiles=""
+koFiles="plexus-resources-1.1.0.jar plexus-resources-1.1.0-sources.jar"

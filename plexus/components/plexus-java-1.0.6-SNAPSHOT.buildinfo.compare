@@ -1,0 +1,5 @@
+version=1.0.6-SNAPSHOT
+ok=2
+ko=1
+okFiles="plexus-languages-1.0.6-SNAPSHOT-site.xml plexus-java-1.0.6-SNAPSHOT-sources.jar"
+koFiles="plexus-java-1.0.6-SNAPSHOT.jar"

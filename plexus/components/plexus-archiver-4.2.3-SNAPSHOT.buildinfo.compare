@@ -1,0 +1,5 @@
+version=4.2.3-SNAPSHOT
+ok=2
+ko=0
+okFiles="plexus-archiver-4.2.3-SNAPSHOT.jar plexus-archiver-4.2.3-SNAPSHOT-sources.jar"
+koFiles=""

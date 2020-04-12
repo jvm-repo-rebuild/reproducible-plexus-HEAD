@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Resource Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-resources
+version=1.1.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-resources.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=plexus-resources-1.1.1-SNAPSHOT.jar
+outputs.0.length=23368
+outputs.0.checksums.sha512=330ec100c43caa077435fec47a77ba948b35b8b91d9200ea1d0a2c690db62a9390ec93e8b1d5ea6bc5356a47e4b1994ed9426d6126334ef030d33be6e528b3a1
+
+outputs.1.filename=plexus-resources-1.1.1-SNAPSHOT-sources.jar
+outputs.1.length=25229
+outputs.1.checksums.sha512=0ba45e3fcd959a599dca389fc8f0eaa706faea5d1c3eb4e89e0aca846ea30a4e55ecf12b46cc0bdc93319399d4133856855f7afb1e67f97f3a2edbd78c6cf9e1

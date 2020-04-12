@@ -1,0 +1,5 @@
+version=1.2
+ok=0
+ko=2
+okFiles=""
+koFiles="plexus-velocity-1.2.jar plexus-velocity-1.2-sources.jar"

@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Languages
+group-id=org.codehaus.plexus
+artifact-id=plexus-languages
+version=1.0.6-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-languages.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.6
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-languages
+
+outputs.0.0.filename=plexus-languages-1.0.6-SNAPSHOT-site.xml
+outputs.0.0.length=1182
+outputs.0.0.checksums.sha512=c892fe16bb64af6d50a4b035792b82bfc1501675871dca207d3465159a63d1bc8e1e4ed738298a1401c901c548243ad6c261a2d3a5e7bcbd8f89b43c97ddb4f0
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-java
+
+outputs.1.0.filename=plexus-java-1.0.6-SNAPSHOT.jar
+outputs.1.0.length=51732
+outputs.1.0.checksums.sha512=63ed53b9e30d91137f2e26c6c7cebf4d1a72020f2fea60662165e44da565fe1e9f69073fa12bae5cb55e78929228d52001ddca1bfd34df8c027d18fc78957cbe
+
+outputs.1.1.filename=plexus-java-1.0.6-SNAPSHOT-sources.jar
+outputs.1.1.length=28663
+outputs.1.1.checksums.sha512=764f373f2f0b16b5c420a94d827d497b1eec0cb56de071a34b74bd7e538cadebf08afde652d041cca90dec1a9ff66591737120484973879f49c15dd43ba7d57b

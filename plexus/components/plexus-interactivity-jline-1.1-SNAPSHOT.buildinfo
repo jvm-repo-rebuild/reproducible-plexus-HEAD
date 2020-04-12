@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Interactivity Handler Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-interactivity
+version=1.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-interactivity.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-interactivity
+
+outputs.0.0.filename=plexus-interactivity-1.1-SNAPSHOT-site.xml
+outputs.0.0.length=313
+outputs.0.0.checksums.sha512=23780a9ee914eddf2750a4a82b711c8aaf59e9ec00d8bc4c8733644ba495a909fb95c30276e3bd6d699138c7c1e87b00017682e7f176641af43849a5560b8c5e
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-interactivity-api
+
+outputs.1.0.filename=plexus-interactivity-api-1.1-SNAPSHOT.jar
+outputs.1.0.length=9676
+outputs.1.0.checksums.sha512=3ff536faa6278f4112ad74036b4bdf751ac339d1c7d310f1107d970c9d050ecfc5ce0193d3b934a33ebd4b08c744fb9616580bc2a4581320dd745507d4caba79
+
+outputs.1.1.filename=plexus-interactivity-api-1.1-SNAPSHOT-sources.jar
+outputs.1.1.length=12887
+outputs.1.1.checksums.sha512=c29f111418351964b437ca33d46a75f3b84cf07271f733f07a976d4c8a43ac2f61daa1b396ceb4847399da55ec8d1380d0a7cfba8b83e6584fa6815a494346ab
+
+outputs.2.coordinates=org.codehaus.plexus:plexus-interactivity-jline
+
+outputs.2.0.filename=plexus-interactivity-jline-1.1-SNAPSHOT.jar
+outputs.2.0.length=3757
+outputs.2.0.checksums.sha512=21b1500dda25392917af6a0f16ea15122b360ba5877d1410d9aff23199001267d4162e6abb4079edaccd6eae2a35be0641d52eb7f32ae7f321c4d18e0bd51389
+
+outputs.2.1.filename=plexus-interactivity-jline-1.1-SNAPSHOT-sources.jar
+outputs.2.1.length=4104
+outputs.2.1.checksums.sha512=f14ccacaa31991b2aae4888ed783a3174bd45adf118be035a51bfb5e39480de2c139f4557b860cee64a559a53cd1eab79b32863b589d3bcd3addfdb78af8bc48

@@ -1,0 +1,5 @@
+version=1.3-SNAPSHOT
+ok=2
+ko=0
+okFiles="plexus-digest-1.3-SNAPSHOT-sources.jar plexus-digest-1.3-SNAPSHOT.jar"
+koFiles=""

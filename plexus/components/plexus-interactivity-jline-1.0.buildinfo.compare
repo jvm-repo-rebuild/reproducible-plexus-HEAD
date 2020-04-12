@@ -1,0 +1,5 @@
+version=1.0
+ok=0
+ko=5
+okFiles=""
+koFiles="plexus-interactivity-api-1.0-sources.jar plexus-interactivity-jline-1.0.jar plexus-interactivity-1.0-site.xml plexus-interactivity-api-1.0.jar plexus-interactivity-jline-1.0-sources.jar"

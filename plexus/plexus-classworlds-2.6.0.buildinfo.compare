@@ -1,0 +1,5 @@
+version=2.6.0
+ok=0
+ko=2
+okFiles=""
+koFiles="plexus-classworlds-2.6.0-sources.jar plexus-classworlds-2.6.0.jar"

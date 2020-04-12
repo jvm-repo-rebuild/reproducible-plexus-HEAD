@@ -1,0 +1,5 @@
+version=3.4.0-SNAPSHOT
+ok=2
+ko=0
+okFiles="plexus-utils-3.4.0-SNAPSHOT-sources.jar plexus-utils-3.4.0-SNAPSHOT.jar"
+koFiles=""
